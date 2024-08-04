@@ -4,11 +4,11 @@ import RightPanel from './RightPanel';
 
 function WeatherPage() {
   return (
-    <div>
+    <div className='flex bg-zinc-900'>
       <div className='w-[20vw]'>
         <LeftPanel />
       </div>
-      <div className='w-[70vw]'>
+      <div className='w-[80vw]'>
         <RightPanel />
       </div>
     </div>
