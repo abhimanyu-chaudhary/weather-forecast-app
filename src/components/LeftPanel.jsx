@@ -11,6 +11,9 @@ import { BsCloudRainHeavyFill } from "react-icons/bs";
 function LeftPanel() {
   const [city, setCity] = useState("Bengaluru");
   const [info, setInfo] = useState(null);
+  
+  const api1= "https://api.tomorrow.io/v4/weather/history/recent?location=austin&apikey=GZNHp0qHHUlhD0xBs0nX8lnLMM9FXqYB";
+  const api2 = "https://api.tomorrow.io/v4/weather/realtime?location=manali&apikey=GZNHp0qHHUlhD0xBs0nX8lnLMM9FXqYB";
 
   useEffect(() => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=eeb0a96d2cc5d60e60bc3f2e0adcb208`)
