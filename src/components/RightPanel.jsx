@@ -16,20 +16,20 @@ function RightPanel() {
     opacity: '0.3'
   }
   return (
-    <div className='h-[100vh] flex flex-col py-10 px-12 rounded-tr-xl rounded-br-xl text-white relative' style={{}}>
-      <div className='absolute w-[100%] h-[100%] bg-green-400 p-0 m-0 top-0 left-0' style={backgroundImageRainy}></div>
+    <div className='h-[100vh] flex flex-col py-5 px-12 rounded-tr-xl rounded-br-xl text-white relative' style={{}}>
+      <div className='absolute w-[100%] h-[100%] bg-green-400 p-0 m-0 top-0 left-0' style={backgroundImageSunny}></div>
       <h1 className='font-semibold mb-3 z-10'>NATIONAL WEATHER FORECAST</h1>
       <div>
         <h1 className='text-sm'>SATURDAY | 03 Aug, 2024 | 09:00 AM</h1>
         <h1></h1>
       </div>
-      <div className='my-10'>
+      <div className='my-5'>
         <Weekly />
       </div>
       <div>
         <h1 className='font-semibold text-xl'>Today's Highlights</h1>
       </div>
-      <div className='mt-5'>
+      <div className='mt-3'>
         <Highlights />
       </div>
     </div>
